@@ -1,0 +1,7 @@
+r = int(input())
+r1 = hex(r)
+g = int(input())
+g1 = hex(g)
+b = int(input())
+b1 = hex(b)
+print('#' + r1[2:].zfill(2).upper() + g1[2:].zfill(2).upper() + b1[2:].zfill(2).upper())
